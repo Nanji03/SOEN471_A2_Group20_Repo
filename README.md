@@ -38,7 +38,7 @@ seaborn
 
 ## **Project Structure**
 
-* `*.ipynb` → Main notebook containing:
+* `.ipynb` → Main notebook containing:
 
   * Data preprocessing
   * User-Based Collaborative Filtering implementation
