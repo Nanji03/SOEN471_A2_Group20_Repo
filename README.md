@@ -59,15 +59,17 @@ Running the notebook will generate:
 * Cleaned and organized user item matrix
 * Grouped and aggregated purchase behaviours
 * User similarity matrix
+* Grid Search Output for Best Hyperparameters for User Based Collaborative Filtering
 * Top-N product recommendations per user for User Based Collaborative Filtering
 * Evaluation metrics (Precision@K, Recall@K, MAP, Coverage, Diversity) for User Based Collaborative Filtering
 * Association rules (support, confidence, lift)
 * Generated rules applying Apriori
 * Top 10 most frequent itemsets based on support
-* Heatmaps of user similarity and user similarity ordered by groups 
-* Top-N product recommendations per user group
-* Tabular summary for report/dashboard use
-* Frequent itemsets bar chart
+* Heatmaps of user similarity and user similarity ordered by groups
+* Global Popular Items
+* Group Popular Items
+* Top-5 product recommendations per user group
+* Frequent itemsets network graph
 
 ---
 
@@ -75,5 +77,5 @@ Running the notebook will generate:
 
 * Ensure all cells are run **in order** to avoid dependency errors
 * Results may slightly vary due to randomness in train-test split
-
+* The graph orientation changes because spring_layout uses a force-directed optimization process with multiple valid equilibrium positions, so small numerical and initialization effects lead to slightly different node placements each run.
 
